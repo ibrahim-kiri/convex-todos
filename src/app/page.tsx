@@ -1,9 +1,9 @@
 "use client";
 
 import { Authenticated, Unauthenticated, AuthLoading } from "convex/react";
-import { SignInButton, UserButton } from "@clerk/nextjs";
 import { NewToDoForm } from "./_components/new-todo-form";
 import { ToDoList } from "./_components/to-do-list";
+import { SignInButton, UserButton } from "@clerk/nextjs";
 
 
 export default function Home() {
